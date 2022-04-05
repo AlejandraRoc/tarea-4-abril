@@ -6,7 +6,7 @@ const middleware = jsonserver.defaults()
 server.use(middleware)
 server.use(router)
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 3000
 
 server.listen(port, ()=>{
      console.log('JSON server is running')
